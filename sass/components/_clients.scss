@@ -1,0 +1,36 @@
+.clients {
+  display: flex;
+}
+
+.clients__item {
+  margin-left: 30px;
+
+  &:first-child {
+  margin-left: 0px;
+}
+}
+
+
+.clients__link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--svg-maincolor);
+  align-items: center;
+  justify-content: center;
+  color: var(--svg-maincolor);
+  border-radius: 4px;
+  transition: color 250ms var(--time-cubic), border 250ms var(--time-cubic);
+
+  &:hover,
+  &:focus {
+  color: var(--blue-text);
+  border: 1px solid var(--blue-text);
+}
+
+}
+
+
+.clients__icon {
+  fill: currentColor;
+}

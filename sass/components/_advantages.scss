@@ -1,0 +1,49 @@
+.svg-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.svg-list__item {
+  display: flex;
+  background-color: var(--backgroundlitht-color);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages {
+  display: flex;
+  margin-top: 30px;
+}
+.advantages__item {
+  margin-left: 30px;
+
+  &:first-child {
+  margin-left: 0px;
+}
+}
+
+
+.advantages__name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--black-text);
+  letter-spacing: 0.03em;
+}
+
+.advantages__description {
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--grey-text);
+  letter-spacing: 0.03em;
+}

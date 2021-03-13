@@ -1,0 +1,141 @@
+.footer {
+  background-color: var(--lihtblack-text);
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address__contacts {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--middlewhite-text);
+  letter-spacing: 0.03em;
+}
+
+.address__text {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--white-text);
+  letter-spacing: 0.03em;
+}
+
+.adress__item {
+  margin-bottom: 9px;
+
+  &:last-child {
+  margin-bottom: 0px;
+}
+}
+
+
+
+
+
+.social {
+  margin-left: 70px;
+}
+
+.social__name {
+  color: var(--white-text);
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  margin-right: 10px;
+
+  &:last-child {
+  margin-right: 0px;
+}
+}
+
+
+
+.social__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-text);
+  border-radius: 50px;
+  background: var(--backgroundlitht-icon);
+  transition: background-color 250ms var(--time-cubic);
+
+  &:hover,
+  &:focus {
+  background-color: var(--blue-text);
+}
+}
+
+
+
+.social__icon {
+  fill: currentColor;
+}
+
+.footer-form {
+  margin-left: 93px;
+}
+
+.subscription-form {
+  display: flex;
+}
+
+.subscription-form__input {
+  width: 358px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--lihtblack-text);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+  &::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--middlewhite-text);
+}
+}
+
+
+
+.subscription-form__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.subscription-form__btn {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  background-color: var(--blue-text);
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  color: var(--white-text);
+  margin-left: 12px;
+}
+
+.subscription-form__icon {
+  fill: currentColor;
+  margin-left: 10px;
+}
