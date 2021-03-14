@@ -17,7 +17,7 @@ html {
   --lihtblack-text: rgba(47, 48, 58, 1);
   --lihtgrey-text: rgba(245, 244, 250, 1);
   --middlewhite-text: rgba(255, 255, 255, 0.6);
-  --border-color: #eeeeee;
+  --border-colorprj: #eeeeee;
   --backgroundlitht-color: #f5f4fa;
   --svg-maincolor: #afb1b8;
   --backgroundlitht-icon: rgba(255, 255, 255, 0.1);
@@ -1258,7 +1258,7 @@ summary {
 
 .projects__item {
   margin-bottom: 30px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-colorprj);
 }
 
 .projects__link {

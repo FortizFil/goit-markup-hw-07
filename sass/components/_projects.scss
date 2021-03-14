@@ -7,12 +7,13 @@
 
 .projects__item {
   margin-bottom: 30px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--border-colorprj);
 }
 
 .projects__link {
   display: block;
   transition: box-shadow 250ms var(--time-cubic);
+  
 
   &:hover,
   &:focus {
