@@ -27,6 +27,7 @@ html {
   --border-color: rgba(255, 255, 255, 0.3);
   --border-form: rgba(33, 33, 33, 0.2);
   --holder-color: rgba(117, 117, 117, 0.5);
+  --overlay-color: rgba(33, 150, 243, 0.9);
   --dogovor: #757575;
   --modal-button-sumbit: #188ce8;
 }
@@ -1310,7 +1311,7 @@ summary {
   padding: 63px 24px;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  background-color: var(--blue-text);
+  background-color: var(--overlay-color);
   -webkit-transition: -webkit-transform 250ms var(--time-cubic);
   transition: -webkit-transform 250ms var(--time-cubic);
   transition: transform 250ms var(--time-cubic);
